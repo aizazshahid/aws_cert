@@ -1,0 +1,103 @@
+body {
+    font-family: 'Fira Sans', sans-serif;
+    padding: 20px 5px;
+}
+
+h1, h2 {
+    padding: 0;
+    margin: 0;
+    /* text-transform: uppercase; */
+}
+h1 {
+    font-weight: lighter;
+    text-align: center;
+    font-size: 50px;
+}
+h2 {
+    font-weight: normal;
+    font-size: 20px;
+    /* text-align: center; */
+}
+
+main {
+    padding: 20px 0;
+}
+
+header > p {
+
+}
+
+div.profession {
+    display: block;
+    text-align: left;
+    width: 100%;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.sessions_detail > li {
+    margin: 20px;
+}
+.sessions_detail > li > span {
+    padding: 0 10px;
+    border-right: 2px solid darkblue;
+    display: inline-block;
+}
+
+/*  Custom Classes snippets ============= */
+    .dated {
+        font-weight: bold;
+        
+        
+        width: 64px;
+        
+    }
+	.dots::after {
+		font-size: 40px;
+		animation: dots 1s infinite;
+	}
+	.black-text {
+		color: rgba(40,40,40,.7);
+	}
+	.white-text {
+		color: rgb(240,240,240);
+	}
+	.text-center {
+		text-align: center;
+	}
+	.transparent {
+		color: rgba(0,0,0,0);
+		transition-property: color;
+		transition-duration: .5s;
+	}
+	.fa {
+		font-size: 25px;
+		cursor: pointer;
+		transition: .1s ease-out;
+	}
+
+	.disabled {
+	   pointer-events: none;
+	   cursor: default;
+	   opacity: .2;
+	}
+	
+	.text {
+        font-size: 16px;
+        line-height: 1.7rem;
+        font-weight: normal;
+        letter-spacing: .5px;
+    }
+    .email {
+        font-weight: 400;
+        letter-spacing: 0px;
+    }
+/*  Classes snippets ends ======== */
+
+/*  Footer ================= */
+    footer {
+        margin-top: 40px;
+        text-align: center;
+    }    
+/*  Footer Ends ============= */
