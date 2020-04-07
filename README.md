@@ -1,5 +1,5 @@
-# aws_cert (http://aizazshahid.com/aws_cert/)
-Online Sessions | AWS Solution Architect Certification
+## Online Sessions | AWS Solution Architect Certification
+### Session Details: http://aizazshahid.com/aws_cert/
 
 by Hameedullah | DevOps Consultant
 Details:
